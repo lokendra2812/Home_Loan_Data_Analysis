@@ -1,16 +1,16 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+import streamlit as st
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# Project Details
+st.title("Home Loan Data Analysis using Deep Learning")
+st.title("Company Name : Finance.")
+st.write("## Developed by : Mr. Lokendra Kumar Agrawal")
 
+# Information providing user : why this solution required and what its doing
+st.write("""
+## For a safe and secure lending experience, it's important to analyze the past data. In
+    this project, I have built a deep learning model to predict the chance of default
+    for future loans using historical data. As you will see, this dataset is highly imbalanced
+    and includes a lot of features that make this problem more challenging.
+""")
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
